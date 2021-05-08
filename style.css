@@ -4,6 +4,9 @@
     background-color:#285078;
     color:white;
 }
+#rate,#ana,#roti,#point{
+    padding:5px;
+}
 h2,h4{
     color:#0af629;
 }
@@ -15,9 +18,11 @@ h2,.second-container{
 }
 #btn1,#btn3{
     background-color:#f9f701;
+    padding:8px;
 }
 #btn2{
     background-color:red;
+    padding:8px;
 }
 .another{
     display:inline-block;
@@ -25,6 +30,10 @@ h2,.second-container{
 .count{
     width:10%;
     margin:8px;
+    padding:5px;
+}
+#total{
+    padding:10px;
 }
 /* .dir{
     display:inline-block;
