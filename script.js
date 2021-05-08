@@ -4,6 +4,8 @@ let perRoti=document.getElementById("roti");
 let perPoint=document.getElementById("point");
 
 let totalBuy=document.getElementById("buy");
+let totalBuy2=document.getElementById("buy2");
+let totalBuy3=document.getElementById("buy3");
 let totalPrice=document.getElementById("total");
 
 let subBtn=document.getElementById("btn1");
@@ -28,7 +30,10 @@ subBtn.addEventListener("click",function(){
 
 resultBtn.addEventListener("click",function(){
     let update=perAna.value*totalBuy.value;
-    totalPrice.value=update;
+    let update2=perRoti.value*totalBuy2.value;
+    let update3=perPoint.value*totalBuy3.value;
+
+    totalPrice.value=update + update2 + update3;
 })
 
 
@@ -39,5 +44,7 @@ clean.addEventListener("click",function(){
     perPoint.value="";
     totalBuy.value="";
     totalPrice.value="";
+    totalBuy2.value="";
+    totalBuy3.value="";
 
 })

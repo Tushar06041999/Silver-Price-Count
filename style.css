@@ -4,7 +4,7 @@
     background-color:#285078;
     color:white;
 }
-h2{
+h2,h4{
     color:#0af629;
 }
 h2,.second-container{
@@ -19,6 +19,15 @@ h2,.second-container{
 #btn2{
     background-color:red;
 }
+.another{
+    display:inline-block;
+}
+.count{
+    width:10%;
+}
+/* .dir{
+    display:inline-block;
+} */
 
 @media only screen and (max-width:1380px) {
     body {
