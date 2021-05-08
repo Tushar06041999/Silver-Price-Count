@@ -1,0 +1,44 @@
+.container{
+    margin-left:600px;
+    width:20%;
+    background-color:#285078;
+    color:white;
+}
+h2{
+    color:#0af629;
+}
+h2,.second-container{
+    text-align:center;
+}
+#btn{
+    background-color:#04f8ee;
+}
+#btn1,#btn3{
+    background-color:#f9f701;
+}
+#btn2{
+    background-color:red;
+}
+
+@media only screen and (max-width:1380px) {
+    body {
+        background-color:#285078;
+    }
+.container{
+    margin:0px;
+    width:100%;
+}
+  }
+
+
+  @media only screen and (max-width:700px) {
+    body {
+        background-color:#285078;
+        height:100%;
+        width:100%;
+    }
+    .container{
+        margin:0px;
+        width:100%;
+    }
+  }
